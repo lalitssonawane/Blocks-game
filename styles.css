@@ -9,7 +9,7 @@ body {
     align-items: center;
     font-size: 3rem;
     flex-direction: column;
-    color: white;
+    color: rgb(145, 11, 11);
 }
 
 .title {
@@ -28,7 +28,7 @@ body {
     grid-template-columns: repeat(var(--size), 60px);
     grid-template-rows: repeat(var(--size), 60px);
     gap: 4px;
-    background-color: #777;
+    background-color: pink;
 }
 
 .board>* {
